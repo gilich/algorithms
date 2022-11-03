@@ -10,13 +10,13 @@ class TheHighOfTree {
     }
 
     public void run() {
-//        Scanner scanner = new Scanner(System.in);
-//        int amountOfNodes = scanner.nextInt();
-//        int[] array = new int[amountOfNodes];
-//        for (int i = 0; i < amountOfNodes; i++) {
-//            array[i] = scanner.nextInt();
-//        }
-//        scanner.close();
+        Scanner scanner = new Scanner(System.in);
+        int amountOfNodes = scanner.nextInt();
+        int[] array = new int[amountOfNodes];
+        for (int i = 0; i < amountOfNodes; i++) {
+            array[i] = scanner.nextInt();
+        }
+        scanner.close();
         int [] a = new int[]{4, -1, 4, 1, 1};
     }
 //    public String [] getChildren (int [] array) {
